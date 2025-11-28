@@ -16,7 +16,7 @@ export default function Projects() {
       title: "Modern Portfolio Website",
       desc: "A clean and fully responsive personal portfolio built using Next.js and custom CSS modules.",
       tech: ["Next.js", "React", "CSS"],
-      img: "/project1.jpg",
+      img: "/Projects/project1.jpg",
       live: "#",
       code: "#",
     },
@@ -24,7 +24,7 @@ export default function Projects() {
       title: "Business Landing Page",
       desc: "A fast and SEO-optimized business landing page with modern UI and perfect Lighthouse score.",
       tech: ["HTML", "CSS", "JavaScript"],
-      img: "/project2.jpg",
+      img: "/Projects/project2.jpg",
       live: "#",
       code: "#",
     },
@@ -32,7 +32,7 @@ export default function Projects() {
       title: "E-Commerce UI Design",
       desc: "A lightweight and smooth e-commerce interface with clean product layout and responsive design.",
       tech: ["React", "CSS"],
-      img: "/project3.jpg",
+      img: "/Projects/project3.jpg",
       live: "#",
       code: "#",
     },
@@ -69,14 +69,14 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <div className={styles.buttons}>
+                {/* <div className={styles.buttons}>
                   <a href={p.live} className={styles.btn} target="_blank">
                     Live Demo
                   </a>
                   <a href={p.code} className={styles.btnOutline} target="_blank">
                     Code
                   </a>
-                </div>
+                </div> */}
               </div>
             </div>
           ))}
