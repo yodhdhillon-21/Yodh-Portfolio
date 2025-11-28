@@ -1,0 +1,123 @@
+.nav {
+  width: 100%;
+  height: 68px;
+  border-bottom: 1px solid #eaeaea;
+  background: #ffffff;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Logo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #111;
+  text-decoration: none;
+}
+
+/* Desktop Links */
+.desktopLinks {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.desktopLinks li a {
+  color: #222;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: 0.25s ease;
+}
+
+.desktopLinks li a:hover {
+  color: #0070f3;
+}
+
+/* Hamburger Button */
+.menuButton {
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 6px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.bar {
+  width: 28px;
+  height: 3px;
+  background: #333;
+  transition: 0.4s ease;
+  border-radius: 4px;
+}
+
+/* Transform for open state */
+.bar1 {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.bar2 {
+  opacity: 0;
+}
+.bar3 {
+  transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Mobile Menu */
+.mobileMenu {
+  position: fixed;
+  top: 68px;
+  right: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  background: #ffffff;
+  transition: height 0.35s ease;
+  border-bottom: 1px solid #eaeaea;
+}
+
+.show {
+  height: 300px;
+}
+
+.mobileLinks {
+  list-style: none;
+  padding: 1.5rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+
+.mobileLinks li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #111;
+  transition: 0.2s ease;
+}
+
+.mobileLinks li a:hover {
+  color: #0070f3;
+}
+
+/* Breakpoints */
+@media (max-width: 768px) {
+  .desktopLinks {
+    display: none;
+  }
+
+  .menuButton {
+    display: flex;
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Yodh Portfolio",
+  "short_name": "Yodh.dev",
+  "description": "Portfolio of Yodhvir Singh — Web Designer & Frontend Developer from Amritsar, Punjab.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0070f3",
+  "icons": [
+    {
+      "src": "/profile.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
