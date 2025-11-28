@@ -1,0 +1,179 @@
+.about {
+  width: 100%;
+  padding: 6rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  background: #fafafa;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 0.7s ease;
+  z-index: 1;
+}
+
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+}
+
+.heading {
+  font-size: 2.6rem;
+  font-weight: 800;
+  color: #111;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  gap: 3rem;
+}
+
+/* LEFT SECTION */
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+/* CARD */
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  border: 1px solid #eaeaea;
+  text-align: center;
+  box-shadow: 0px 4px 18px rgba(0,0,0,0.06);
+}
+
+.imageWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.profileImage {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  margin-top: 1rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.role {
+  margin-top: 0.4rem;
+  font-size: 1.1rem;
+  color: #0070f3;
+  font-weight: 600;
+}
+
+.location {
+  margin-top: 0.3rem;
+  font-size: 0.95rem;
+  color: #666;
+}
+
+.signature {
+  margin-top: 1rem;
+  font-size: 1.4rem;
+  font-family: cursive;
+  color: #333;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 1.3rem;
+  border-radius: 14px;
+  border: 1px solid #eaeaea;
+  box-shadow: 0px 4px 18px rgba(0,0,0,0.05);
+}
+
+.statBox h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.statBox p {
+  color: #666;
+  margin-top: 0.2rem;
+}
+
+/* RIGHT SIDE */
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text {
+  font-size: 1.15rem;
+  color: #444;
+  line-height: 1.9rem;
+  margin-bottom: 1.3rem;
+}
+
+/* TIMELINE */
+.timeline {
+  margin-top: 2rem;
+  position: relative;
+  padding-left: 30px;
+}
+
+.line {
+  position: absolute;
+  left: 10px;
+  top: 0;
+  height: 100%;
+  width: 3px;
+  background: #0070f3;
+}
+
+.item {
+  margin-bottom: 1.6rem;
+}
+
+.circle {
+  width: 14px;
+  height: 14px;
+  background: #0070f3;
+  border-radius: 50%;
+  position: absolute;
+  left: 4px;
+}
+
+.year {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #111;
+  margin-left: 25px;
+}
+
+.desc {
+  margin-left: 25px;
+  color: #555;
+  margin-top: 2px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .stats {
+    justify-content: space-around;
+  }
+}
