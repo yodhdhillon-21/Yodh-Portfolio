@@ -77,7 +77,7 @@ export default function Contact() {
             <p>
               If you want a clean, modern, responsive website, feel free to message me.
             </p>
-            <p><strong>Email:</strong> your-email@gmail.com</p>
+            <p><strong>Email:</strong> yodhdhillon31@gmail.com</p>
             <p><strong>Location:</strong> Amritsar, Punjab</p>
           </div>
 

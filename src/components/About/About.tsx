@@ -22,7 +22,7 @@ export default function About() {
             <div className={styles.card}>
               <div className={styles.imageWrapper}>
                 <Image
-                  src="/profile/profile.png"
+                  src="/Profile/profile.png"
                   alt="Yodhvir Singh"
                   width={250}
                   height={250}
