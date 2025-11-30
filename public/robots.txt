@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yodh-portfolio.vercel.app/sitemap.xml
+Sitemap: https://yodhdhillon.vercel.app/sitemap.xml

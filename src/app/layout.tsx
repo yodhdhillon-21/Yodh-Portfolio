@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Yodh | Web Designer & Frontend Developer",
     description:
       "Modern and responsive web design by Yodhvir Singh from Amritsar, Punjab.",
-    url: "https://yodh-portfolio.vercel.app/",
+    url: "https://yodhdhillon.vercel.app/",
     siteName: "Yodh Portfolio",
     type: "website",
     images: [
